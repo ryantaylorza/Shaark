@@ -12,38 +12,22 @@
 <!-- Meta Description -->
 <meta name="description" content="Business Portal, Fishhoek, Simons Town, Noordhoek and Kommetjie">
 <!-- Recommended favicon format -->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <header>
-<div class="flex-container">
-  <div class="tempbox" height="auto">
-    <h3>
-  <a href="https://www.accuweather.com/en/za/vishoek/301266/weather-forecast/301266" class="aw-widget-legal">AccuWeather
-</a></h3>
-<div id="awcc1524311861392" class="aw-widget-current"  data-locationkey="301266" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1524311861392">
-</div>
-<script type="text/javascript" src="https://oap.accuweather.com/launch.js">
-</script>
-</div>
-<div class="logo">
-<img src="images/shaark.jpg" alt="shaark">
-</div>
-<div class="localnews">
-  <h3>
-    <a href="localnews.html">Local News</a>
-  </h3>
-</div>
-</div>
-<br>
+  <br>
+  <br>
 </header>
 <body>
 <div class="navbar">
-  <a class="active" href="index.html">Home</a>
+  <a href="index.html">
+    <img alt="shaark" src="images/shaark.jpg" height="100px">
+  </a>
   <div class="subnav">
     <button class="subnavbtn">Peninsula Suburbs<i class="fa fa-caret-down"></i></button>
     <div class="subnav-content">
@@ -79,17 +63,18 @@
       <a href="#link4">Commercial Retail</a>
     </div>
   </div>
-  <a href="form.html">Please List your business</a>
+  <a href="form.html">Sign Up Today</a>
 </div>
 </body>
 <main>
   <div class="InfoBox">
     <div class="sharkwatch">
-      <table align='center' border='0' cellspacing='0' cellpadding='10' width='50%'>
+      <table align='center' border='0px' cellspacing='0' cellpadding='10'>
  <tr>
-   <td align='left' valign="top">
+   <td valign="top">
    <!-- CAMERA FEEDS -->
-   <center><h3>Fish Hoek Beach, Cape Town, South Africa</h3>
+   <center>
+     <h3>Fish Hoek Beach, Cape Town, South Africa</h3>
      <img id="cam_img" src="https://www.baywatch.tv/cam_stills/ispy_00001.jpg" width="100%" alt="Camera Image">
 <p>Images from the last 10 minutes (Auto update)</p>
 <p>
@@ -116,10 +101,8 @@
 </p>
 
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 <script type="text/javascript">
 var i = 1;
-
 function myLoop () {
   setTimeout(function () {
      if (i > 20) {
@@ -132,18 +115,48 @@ function myLoop () {
      }
   }, 1250);
 }
-
 myLoop();
-</script><p>Watch the beachfront on Fish Hoek Beach live</p><hr/>		<!-- END CAMERA FEEDS -->
-  </center> </td>
+</script>
+<p>Watch the beachfront on Fish Hoek Beach live</p>
+<hr/>
+<!-- END CAMERA FEEDS -->
+  </center>
+</td>
  </tr>
-
  </table>
     </div>
-    <div class="map"><center>
-      <iframe width="50%" height="50%" frameborder="0" scrolling="no" marginheight="0" marginwidth="3px" src="https://www.openstreetmap.org/export/embed.html?bbox=18.24211120605469%2C-34.30374065672996%2C18.48312377929688%2C-34.074843687451846&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/-34.1894/18.3626">View Larger Map</a></small>
+    <div class="map">
+      <table align='center' border='0px' cellspacing='0' cellpadding='0'>
+        <tr>
+          <td valign="top">
+      <center>
+      <h3>Cape Town South Peninsual Map</h3>
+      <iframe frameborder="0px" scrolling="no" marginheight="0px" marginwidth="0px" src="https://www.openstreetmap.org/export/embed.html?bbox=18.24211120605469%2C-34.30374065672996%2C18.48312377929688%2C-34.074843687451846&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+      <br/>
+      <medium>
+        <a href="https://www.openstreetmap.org/#map=12/-34.1894/18.3626">View Larger Map</a>
+      </medium>
           <br/>
           </center>
+        </td>
+         </tr>
+        </table>
+      </div>
+      <div class="tempbox">
+        <table align='center' border='0px' cellspacing='0' cellpadding='0'>
+          <tr>
+            <td valign="top">
+          <h3>
+        <a href="https://www.accuweather.com/en/za/vishoek/301266/weather-forecast/301266" class="aw-widget-legal">AccuWeather
+      </a></h3>
+      <div id="awcc1524311861392" class="aw-widget-current"  data-locationkey="301266" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1524311861392">
+      </div>
+      <script type="text/javascript" src="https://oap.accuweather.com/launch.js">
+      </script>
+    </iframe>
+    </td>
+    </tr>
+    </table>
       </div>
   </div>
 </main>
@@ -176,5 +189,8 @@ myLoop();
       </div>
     </div>
   </div>
-</footer>
+</footer><center>
+<h5>Designed by Ryan Taylor | Idaho - South African | (c) Copy Write Reserved</h5>
+<p>Date | Time: <span id="datetime"></span></p><script>var dt = new Date();
+document.getElementById("datetime").innerHTML=dt.toLocaleString();</script></center>
 </html>

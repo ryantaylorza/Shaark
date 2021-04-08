@@ -1,9 +1,9 @@
 body {
   font-family: Roboto, Arial, sans-serif;
-  margin: 0;
-  background-image:url(images\jonny-hayes-CdDkxyupUfs-unsplash.jpg);
+  margin: 5px;
+  background-image:url(images/jonny-hayes-CdDkxyupUfs-unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: auto;
   position: center;
 }
 
@@ -17,55 +17,51 @@ h3 a {
   justify-content: center;
   margin: 5px;
   text-align: center;
-  line-height:5px;
+  line-height:30px;
 }
 
 .flex-container {display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #f1f1f1;
 }
 
 .flex-container div{
-background-color: #304d6d;
-color: white;
+color: #304d6d;
 justify-content: center;
 margin: 5px;
 text-align: center;
-line-height:5px;
+line-height:30px;
 }
-.tempbox{
-  margin:5px;
+
 }
 .logo {
-  margin:5px;height: 25%;
+  margin:5px;
 }
-.shaark {height: 25%; margin: 5px;}
+.shaark {width:auto; margin: 5px;}
 
 .localnews{
   margin: 5px;
 }
 .navbar {
   overflow: hidden;
-  background-color: #304d6d;
-  justify-content: center;
   margin: 5px;
+  font-size: 20px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 400;
 }
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 25px;
   color: white;
   font-style: bold;
-  text-align: center;
   margin: 5px;
   padding: 14px 14px;
-  text-decoration: none;
 }
 
 a.active {
-  background-color: #545E75;
   color: white;
   font-style: bold;
 }
@@ -76,7 +72,7 @@ a.active {
 }
 
 .subnav .subnavbtn {
-  font-size: 16px;
+  font-size: 25px;
   font-style: bold;
   border: none;
   outline: none;
@@ -88,25 +84,25 @@ a.active {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: #A7CCED;
+  background-color: #304d6d;
   margin: 5px;
-  color: #304d6d
+  color: #A7CCED;
 }
 
 .subnav-content {
+  background-color: #304d6d;
   display: none;
   position: absolute;
   left: 0;
   margin: 5px;
-  background-color: #304d6d;
   width: 100%;
   z-index: 1;
 }
 
 .subnav-content a {
+  background-color: #304d6d;
   float: left;
-  color: white;
-  text-decoration: none;
+  color: #A7CCED;
 }
 
 .subnav-content a:hover {
@@ -115,7 +111,29 @@ a.active {
 }
 
 .subnav:hover .subnav-content {
+  background-color: #304d6d;
   display: block;
 }
-.InfoBox{ display: inline-grid; grid: 1fr 1fr}
-.sharkwatch { display: block;}
+.InfoBox{ display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 14px 14px;
+  margin:5px;}
+
+.sharkwatch {
+  display: block;
+  padding: 14px 14px;
+  max-width: 33%;
+  margin:5px;
+}
+.map {
+  display: block;
+  padding: 14px 14px;
+  max-width: 33%;
+  margin:5px;
+}
+.tempbox{
+  display: block;
+  padding: 14px 14px;
+  max-width: 33%;
+  margin:5px;
