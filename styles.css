@@ -1,112 +1,108 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+  background-image:url(images\jonny-hayes-CdDkxyupUfs-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: center;
+}
 
-.header{
-  float: center;
-  display:flex;
-  overflow: hidden;
-  background-color: #333;
-  width: 100%;
-  }
+body p { color: #A7CCED}
 
-  .Main_Logo{
-    float: center;
-    display: block;
-    width: 100%;
-    align-items: center;
-    padding: 5% 5% 5% 5%;
-  }
-  .Weather{
-    float: center;
-    display: block;
-    width: 100%;
-    font-size: 24px;
-    color: white;
-    text-align: center;
-    padding: 5% 5% 5% 5%;}
+header { margin: 10px;}
 
-  .Latest_News{
-    float: center;
-    display: block;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    padding: 5% 5% 5% 5%;}
+.flex-container {display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
 
-.header a {
-    float: center;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 5% 5% 5% 5%;
-    text-decoration: none;
-  }
+.flex-container div{
+background-color: #304d6d;
+color: white;
+justify-content: center;
+margin: 10px;
+text-align: center;
+line-height:10px;
+}
+.tempbox{
+  width:20%;
+  margin:10px;
+}
+.logo {
+  margin:10px;height: auto;
+}
+.shaark {width: 100%; margin: 10px;}
+
+.localnews{
+  margin: 10px;
+  width: 20%;
+}
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #A7CCED;
+  justify-content: center;
+  margin: 10px;
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: #304d6d;
   text-align: center;
-  padding: 14px 16px;
+  margin: 10px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
-.dropdown {
+a.active {
+  background-color: #545E75;
+  color: white;
+}
+
+.subnav {
   float: left;
   overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.subnav .subnavbtn {
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
-  padding: 14px 16px;
+  color: #304d6d;
+  padding: 14px 14px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
+  margin: 10px;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #333;
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #63ADF2;
+  margin: 10px;
 }
 
-.dropdown-content {
+.subnav-content {
   display: none;
   position: absolute;
-  color: white;
-  background-color:#333;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  left: 0;
+  margin: 10px;
+  background-color: #63ADF2;
+  width: 100%;
   z-index: 1;
 }
 
-.dropdown-content a {
-  float: none;
+.subnav-content a {
+  float: left;
   color: white;
-  padding: 12px 16px;
-  background-color:#333;
   text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #63ADF2;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
   display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #333;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown-submenu {
-  position: relative;
-}
-
-.dropdown-submenu .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -1px;
 }

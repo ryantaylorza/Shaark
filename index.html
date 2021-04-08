@@ -6,59 +6,119 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <header>
-  <div class="header">
-    <div class="Weather">
-    <a href="weather.html">Weather</a>
-    </div>
-    <div class="Main_Logo">
-      <img src="images/shaark.png" alt="shaark" width="75%">
-    </div>
-    <div class="Latest_News">
-      <a href="News.html">Local News</a>
-    </div>
+<div class="flex-container">
+  <div class="tempbox">
+    <h3>Your Weather</h3>
+      <p>Current Location</p>
   </div>
+  <div class="logo">
+    <img src="images/shaark.jpg" alt="shaark">
+  </div>
+  <div class="localnews">
+    <h3>Local News</h3>
+  </div>
+</div>
+<br>
 </header>
 <body>
-  <div class="navbar">
-  <a href="#home">Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">Suburbs</button>
-    <div class="dropdown-content">
-      <li class="dropdown-submenu">
-        <a class="test" tabindex="-1" href="#">Houtbay</a>
-        <ul class="dropdown-menu">
-          <a href="#">Imizamo Yethu</a>
-          <a href="#">Hangberg</a>
-          </ul>
-          <a class="test" tabindex="-1" href="#">Fish Hoek</a>
-        <ul class="dropdown-menu">
-        <a href="#">St James</a>
-        <a href="#">Kalk Bay</a>
-      <a href="#">Clovelly</a>
-      <a href="#">Noordhoek</a>
-      <a href="#">Sun Valley</a>
-      <a href="#">Capri Village</a>
-      <a href="#">Masipumele</a>
-      <a href="#">Ocean View</a>
-      <a href="#">Kommetjie</a>
-      <a href="#">Misty Clifs</a>
-      <a href="#">Scarborough</a>
-      <a href="#">Cape Point</a>
-      <a href="#">Murdock Valley</a>
-      <a href="#">Sea Forth - Boulders</a>
-      <a href="#">Simons Town</a>
-      <a href="#">Welcome Glen</a>
-      <a href="#">Glencairn</a>
-      </ul>
-
+<div class="navbar">
+  <a class="active" href="index.html">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Peninsula Suburbs<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#StJames">St James</a>
+      <a href="#KalkBay">KalkBay</a>
+      <a href="#Clovelly">SunValley</a>
+      <a href="#Fishhoek">Fish Hoek</a>
+      <a href="#Sunvalley">SunValley</a>
+      <a href="#Noordhoek">Noordhoek</a>
+      <a href="#Chapmans">Chapmans Peak</a>
+      <a href="#Capri">Capri</a>
+      <a href="#Masi">Masipumelele</a>
     </div>
   </div>
-  <a href="#news">News</a>
-
+  <div class="subnav">
+    <button class="subnavbtn">Far South / Cape Point<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#Imhoffs">Imhoffs Gift</a>
+      <a href="#Oceanview">OceanView</a>
+      <a href="#deliver">Kommetjie</a>
+      <a href="#Misty">Misty Cliffs</a>
+      <a href="#Scarborough">Scarborough</a>
+      <a href="#Imhoffs">Red Hill</a>
+      <a href="#Imhoffs">Imhoffs Gift</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Business Directory<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">Home Made</a>
+      <a href="#link2">Construction</a>
+      <a href="#link3">Real Estate</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">Link 1</a>
+      <a href="#link2">Link 2</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+  <a href="#contact">Contact</a>
+  <a href="form.html">List your business</a>
 </div>
-
-<h3>Dropdown Menu inside a Navigation Bar</h3>
-<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
-
+<div style="padding:0 16px">
+  <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
+  <p>Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p>
+</div>
 </body>
+<main>
+  <div class="InfoBox">
+    <div class="sharkwatch">
+    </div>
+    <div class="LiveOcean">
+      <script type='text/javascript'>
+var yieldlove_site_id = "webcamgalore.com_webcam";
+</script><script type='text/javascript' src='//cdn-a.yieldlove.com/yieldlove-bidder.js?webcamgalore.com_webcam'></script>
+<script async='async' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js'></script>
+    </div>
+    <div class="Map">
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="navbar">
+    <a class="active" href="index.html">Home</a>
+    <div class="subnav">
+      <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="#company">Company</a>
+        <a href="#team">Team</a>
+        <a href="#careers">Careers</a>
+      </div>
+    </div>
+    <div class="subnav">
+      <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="#bring">Bring</a>
+        <a href="#deliver">Deliver</a>
+        <a href="#package">Package</a>
+        <a href="#express">Express</a>
+      </div>
+    </div>
+    <div class="subnav">
+      <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="#link1">Link 1</a>
+        <a href="#link2">Link 2</a>
+        <a href="#link3">Link 3</a>
+        <a href="#link4">Link 4</a>
+      </div>
+    </div>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
 </html>
