@@ -1,14 +1,27 @@
 
+<!-- Doctype HTML5 -->
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Set character encoding for the document -->
+<meta charset="utf-8">
+<!-- Viewport for responsive web design -->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Document Title -->
+<title>South Peninsula business portal and chamber of commerce</title>
+<!-- Meta Description -->
+<meta name="description" content="Business Portal, Fishhoek, Simons Town, Noordhoek and Kommetjie">
+<!-- Recommended favicon format -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <header>
 <div class="flex-container">
-  <div class="tempbox">
+  <div class="tempbox" height="auto">
     <h3>
   <a href="https://www.accuweather.com/en/za/vishoek/301266/weather-forecast/301266" class="aw-widget-legal">AccuWeather
 </a></h3>
@@ -20,8 +33,10 @@
 <div class="logo">
 <img src="images/shaark.jpg" alt="shaark">
 </div>
-<div class="localnews"><h3>
-<a href="localnews.html">Local News</a></h3>
+<div class="localnews">
+  <h3>
+    <a href="localnews.html">Local News</a>
+  </h3>
 </div>
 </div>
 <br>
@@ -70,12 +85,12 @@
 <main>
   <div class="InfoBox">
     <div class="sharkwatch">
-      <table align='center' border='0' cellspacing='0' cellpadding='10' width='600'>
+      <table align='center' border='0' cellspacing='0' cellpadding='10' width='50%'>
  <tr>
-   <td align='left' width='654' valign="top">
+   <td align='left' valign="top">
    <!-- CAMERA FEEDS -->
    <center><h3>Fish Hoek Beach, Cape Town, South Africa</h3>
-     <img id="cam_img" src="https://www.baywatch.tv/cam_stills/ispy_00001.jpg" width="704" height="480" alt="Camera Image">
+     <img id="cam_img" src="https://www.baywatch.tv/cam_stills/ispy_00001.jpg" width="100%" alt="Camera Image">
 <p>Images from the last 10 minutes (Auto update)</p>
 <p>
 <a style="display:none" href="#" onclick="document.getElementById('cam_img').src='https://www.baywatch.tv/cam_stills/ispy_00001.jpg'; return false;" id="click1">Image 1</a>
@@ -125,14 +140,17 @@ myLoop();
 
  </table>
     </div>
-    <div class="map">
+    <div class="map"><center>
+      <iframe width="50%" height="50%" frameborder="0" scrolling="no" marginheight="0" marginwidth="3px" src="https://www.openstreetmap.org/export/embed.html?bbox=18.24211120605469%2C-34.30374065672996%2C18.48312377929688%2C-34.074843687451846&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/-34.1894/18.3626">View Larger Map</a></small>
+          <br/>
+          </center>
       </div>
   </div>
 </main>
 <footer>
   <div class="navbar">
     <div class="subnav">
-      <button class="subnavbtn">About Us<i class="fa fa-caret-down"></i></button>
+      <button class="subnavbtn">About Us<i class="fa fa-caret-up"></i></button>
       <div class="subnav-content">
         <a href="#company">Company</a>
         <a href="#team">Team</a>
@@ -141,7 +159,7 @@ myLoop();
       </div>
     </div>
     <div class="subnav">
-      <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+      <button class="subnavbtn">Services <i class="fa fa-caret-up"></i></button>
       <div class="subnav-content">
         <a href="#bring">Bring</a>
         <a href="#deliver">Deliver</a>
@@ -150,7 +168,7 @@ myLoop();
       </div>
     </div>
     <div class="subnav">
-      <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+      <button class="subnavbtn">Partners <i class="fa fa-caret-up"></i></button>
       <div class="subnav-content">
         <a href="https://scsonline.net">SCSONLINE</a>
         <a href="https://rustican.us">Rustican.us</a>
