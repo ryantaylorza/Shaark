@@ -137,3 +137,8 @@ a.active {
   padding: 14px 14px;
   max-width: 33%;
   margin:5px;
+
+}
+.photo {
+  display: block;
+    border-radius: 50%;}
