@@ -11,6 +11,15 @@ body p { color: #A7CCED}
 
 header { margin: 10px;}
 
+h3 a {
+  background-color: #304d6d;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+  line-height:10px;
+}
+
 .flex-container {display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -41,7 +50,7 @@ line-height:10px;
 }
 .navbar {
   overflow: hidden;
-  background-color: #A7CCED;
+  background-color: #304d6d;
   justify-content: center;
   margin: 10px;
 }
@@ -49,7 +58,8 @@ line-height:10px;
 .navbar a {
   float: left;
   font-size: 16px;
-  color: #304d6d;
+  color: white;
+  font-style: bold;
   text-align: center;
   margin: 10px;
   padding: 14px 14px;
@@ -59,6 +69,7 @@ line-height:10px;
 a.active {
   background-color: #545E75;
   color: white;
+  font-style: bold;
 }
 
 .subnav {
@@ -68,9 +79,10 @@ a.active {
 
 .subnav .subnavbtn {
   font-size: 16px;
+  font-style: bold;
   border: none;
   outline: none;
-  color: #304d6d;
+  color: white;
   padding: 14px 14px;
   background-color: inherit;
   font-family: inherit;
@@ -78,8 +90,9 @@ a.active {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: #63ADF2;
+  background-color: #A7CCED;
   margin: 10px;
+  color: #304d6d
 }
 
 .subnav-content {
@@ -87,7 +100,7 @@ a.active {
   position: absolute;
   left: 0;
   margin: 10px;
-  background-color: #63ADF2;
+  background-color: #304d6d;
   width: 100%;
   z-index: 1;
 }
@@ -99,10 +112,23 @@ a.active {
 }
 
 .subnav-content a:hover {
-  background-color: #63ADF2;
+  background-color: #304d6d;
   color: black;
 }
 
 .subnav:hover .subnav-content {
   display: block;
 }
+.sharkwatch { display: block;}
+.Arial {
+  font-style: Arial;
+  font-size: 10px;
+  text-align: justify;
+  letter-spacing: 2;
+  line-height: 15px;}
+
+  .Verdana {
+    font-style: Verdana;
+    font-size: 10px;}
+
+    .aw-widget-current lt-216 lt-280 lt-350 lt-479 {type="text/css">  .aw-icon-33-t {background-image:url(https://vortex.accuweather.com/adc2010/images/icons-numbered/33-t.png)} .aw-icon-33-h {background-image:url(https://vortex.accuweather.com/adc2010/images/icons-numbered/33-h.png)} .aw-icon-33-s {background-image:url(https://vortex.accuweather.com/adc2010/images/icons-numbered/33-s.png)} .aw-icon-33-m {background-image:url(https://vortex.accuweather.com/adc2010/images/icons-numbered/33-m.png)} .aw-icon-33-l {background-image:url(https://vortex.accuweather.com/adc2010/images/icons-numbered/33-l.png)} .aw-icon-33-xl {background-image:url(https://vortex.accuweather.com/adc2010/images/icons-numbered/33-xl.png)} </style>
