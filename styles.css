@@ -1,69 +1,64 @@
 body {
   font-family: Roboto, Arial, sans-serif;
-  margin: 5px;
-  background-image:url(images/jonny-hayes-CdDkxyupUfs-unsplash.jpg);
+  margin: 0;
+  background-image:url(images\jonny-hayes-CdDkxyupUfs-unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   position: center;
 }
 
 body p { color: #A7CCED}
 
-header { margin: 5px;}
-
-h3 a {
-  background-color: #304d6d;
-  color: white;
-  justify-content: center;
-  margin: 5px;
-  text-align: center;
-  line-height:30px;
-}
+header { margin: 10px;}
 
 .flex-container {display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #f1f1f1;
 }
 
 .flex-container div{
-color: #304d6d;
+background-color: #304d6d;
+color: white;
 justify-content: center;
-margin: 5px;
+margin: 10px;
 text-align: center;
-line-height:30px;
+line-height:10px;
 }
-
+.tempbox{
+  width:20%;
+  margin:10px;
 }
 .logo {
-  margin:5px;
+  margin:10px;height: auto;
 }
-.shaark {width:auto; margin: 5px;}
+.shaark {width: 100%; margin: 10px;}
 
 .localnews{
-  margin: 5px;
+  margin: 10px;
+  width: 20%;
 }
 .navbar {
   overflow: hidden;
-  margin: 5px;
-  font-size: 20px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: 400;
+  background-color: #A7CCED;
+  justify-content: center;
+  margin: 10px;
 }
 
 .navbar a {
   float: left;
-  font-size: 25px;
-  color: white;
-  font-style: bold;
-  margin: 5px;
+  font-size: 16px;
+  color: #304d6d;
+  text-align: center;
+  margin: 10px;
   padding: 14px 14px;
+  text-decoration: none;
 }
 
 a.active {
+  background-color: #545E75;
   color: white;
-  font-style: bold;
 }
 
 .subnav {
@@ -72,73 +67,42 @@ a.active {
 }
 
 .subnav .subnavbtn {
-  font-size: 25px;
-  font-style: bold;
+  font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: #304d6d;
   padding: 14px 14px;
   background-color: inherit;
   font-family: inherit;
-  margin: 5px;
+  margin: 10px;
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: #304d6d;
-  margin: 5px;
-  color: #A7CCED;
+  background-color: #63ADF2;
+  margin: 10px;
 }
 
 .subnav-content {
-  background-color: #304d6d;
   display: none;
   position: absolute;
   left: 0;
-  margin: 5px;
+  margin: 10px;
+  background-color: #63ADF2;
   width: 100%;
   z-index: 1;
 }
 
 .subnav-content a {
-  background-color: #304d6d;
   float: left;
-  color: #A7CCED;
+  color: white;
+  text-decoration: none;
 }
 
 .subnav-content a:hover {
-  background-color: #304d6d;
+  background-color: #63ADF2;
   color: black;
 }
 
 .subnav:hover .subnav-content {
-  background-color: #304d6d;
   display: block;
 }
-.InfoBox{ display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 14px 14px;
-  margin:5px;}
-
-.sharkwatch {
-  display: block;
-  padding: 14px 14px;
-  max-width: 33%;
-  margin:5px;
-}
-.map {
-  display: block;
-  padding: 14px 14px;
-  max-width: 33%;
-  margin:5px;
-}
-.tempbox{
-  display: block;
-  padding: 14px 14px;
-  max-width: 33%;
-  margin:5px;
-
-}
-.photo {
-  display: block;
-    border-radius: 50%;}
